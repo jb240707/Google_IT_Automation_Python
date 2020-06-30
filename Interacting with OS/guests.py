@@ -40,6 +40,7 @@ with open("guests.txt") as guests:
     for line in guests:
         print(line)
 
+
 """
 The current names in the guests.txt file should be: Bob, Andrea, Manuel, Polly, Khalid, Sam, Danielle and Jacob.
 
@@ -55,6 +56,7 @@ Now let's remove the guests that have checked out already. There are several way
 
 Ready? Fill in the missing code in the following cell to remove the guests that have checked out already.
 """
+
 
 checked_out=["Andrea", "Manuel", "Khalid"]
 temp_list=[]
@@ -72,6 +74,7 @@ with open("guests.txt", "w") as guests:
 with open("guests.txt") as guests:
     for line in guests:
         print(line)
+
 
 """
 The current names in the guests.txt file should be: Bob, Polly, Sam, Danielle and Jacob.
